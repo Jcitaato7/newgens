@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="searchbar.ascx.vb" Inherits="tfsCMS.searchbar" %>
+<asp:TextBox ID="txtsearch" CssClass="searchbox" runat="server" Text="SEARCH PRODUCT"  />&nbsp;<asp:Button ID="btnsearch" runat="server" CssClass="searchbutton" Text="GO" />

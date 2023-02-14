@@ -1,0 +1,26 @@
+﻿
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .vl {
+        border-left: 2px solid black;
+        height: 185px;
+        top: 50px;
+    }
+
+    div.pageright {
+        margin-left: -50px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .vl {
+        border-left: 2px solid black;
+        height: 185px;
+        top: 50px;
+    }
+
+    div.pageright {
+        margin-left: -50px;
+    }
+}

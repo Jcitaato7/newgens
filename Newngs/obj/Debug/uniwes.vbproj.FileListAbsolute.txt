@@ -1,0 +1,12 @@
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\Mugen\bin\tfsCMS.dll
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\Mugen\bin\tfsCMS.pdb
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\Mugen\bin\tfsCMS.xml
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\Mugen\bin\techCart.DAL.dll
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\Mugen\bin\techCart.DAL.pdb
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\Mugen\bin\techCart.DAL.xml
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\Mugen\obj\Debug\uniwes.vbprojResolveAssemblyReference.cache
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\Mugen\obj\Debug\tfsCMS.Resources.resources
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\Mugen\obj\Debug\uniwes.vbproj.GenerateResource.Cache
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\Mugen\obj\Debug\tfsCMS.dll
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\Mugen\obj\Debug\tfsCMS.xml
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\Mugen\obj\Debug\tfsCMS.pdb

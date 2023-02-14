@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:7145/webpages/home.aspx</loc>
+  </url>
+  <url>
+    <loc>http://localhost:7145/webpages/about-us.aspx</loc>
+  </url>
+  <url>
+    <loc>http://localhost:7145/webpages/project-management.aspx</loc>
+  </url>
+  <url>
+    <loc>http://localhost:7145/webpages/bottomline-technologies.aspx</loc>
+  </url>
+  <url>
+    <loc>http://localhost:7145/webpages/newgens-pte-ltd.aspx</loc>
+  </url>
+  <url>
+    <loc>http://localhost:7145/webpages/technical-integration-services.aspx</loc>
+  </url>
+  <url>
+    <loc>http://localhost:7145/webpages/contact-us.aspx</loc>
+  </url>
+  <url>
+    <loc>http://localhost:7145/webpages/cfrm.aspx</loc>
+  </url>
+  <url>
+    <loc>http://localhost:7145/webpages/gtsuite.aspx</loc>
+  </url>
+</urlset>

@@ -1,0 +1,1601 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+tfsCMS
+</name>
+</assembly>
+<members>
+<member name="F:tfsCMS.wpBreadcrumb.rptBreadCrumb">
+	<summary>
+rptBreadCrumb control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.files.RadFileExplorer1">
+	<summary>
+RadFileExplorer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.Recovery.lblusername">
+	<summary>
+lblusername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.Recovery.txtpwd">
+	<summary>
+txtpwd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.Recovery.RequiredFieldValidator2">
+	<summary>
+RequiredFieldValidator2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.Recovery.RegularExpressionValidator2">
+	<summary>
+RegularExpressionValidator2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.Recovery.btnback">
+	<summary>
+btnback control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.Recovery.btnreset">
+	<summary>
+btnreset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.Recovery.lblmsg">
+	<summary>
+lblmsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpHorizontalTabs.wpDIVProps">
+	<summary>
+wpDIVProps control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpHorizontalTabs.rptEditTitles">
+	<summary>
+rptEditTitles control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpHorizontalTabs.rptEditContents">
+	<summary>
+rptEditContents control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpHorizontalTabs.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpHorizontalTabs.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpHorizontalTabs.wpDIVContent">
+	<summary>
+wpDIVContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpHorizontalTabs.rptTitles">
+	<summary>
+rptTitles control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpHorizontalTabs.rptContents">
+	<summary>
+rptContents control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpcontent.RadAjaxLoadingPanel1">
+	<summary>
+RadAjaxLoadingPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpcontent.RadAjaxPanel1">
+	<summary>
+RadAjaxPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpcontent.FormView1">
+	<summary>
+FormView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpcontent.dscontent">
+	<summary>
+dscontent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpNavigations.wpHorizontalTabs1">
+	<summary>
+wpHorizontalTabs1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpNavigations.wpGoToTop1">
+	<summary>
+wpGoToTop1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default6.dsenquiries">
+	<summary>
+dsenquiries control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default6.RadGrid1">
+	<summary>
+RadGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default6.RadWindowManager1">
+	<summary>
+RadWindowManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default6.formsettings">
+	<summary>
+formsettings control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpproductdetails.urlHash">
+	<summary>
+urlHash control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpproductdetails.rptMainItem">
+	<summary>
+rptMainItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Product_Photos_Default.RadCodeBlock1">
+	<summary>
+RadCodeBlock1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Product_Photos_Default.RadGrid1">
+	<summary>
+RadGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Product_Photos_Default.RadWindowManager1">
+	<summary>
+RadWindowManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Product_Photos_Default.formsettings">
+	<summary>
+formsettings control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SiteAdmin.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SiteAdmin.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SiteAdmin.RadScriptManager1">
+	<summary>
+RadScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SiteAdmin.WebPartmgr">
+	<summary>
+WebPartmgr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SiteAdmin.CatalogZone1">
+	<summary>
+CatalogZone1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SiteAdmin.DeclarativeCatalogPart1">
+	<summary>
+DeclarativeCatalogPart1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SiteAdmin.DeclarativeCatalogPart5">
+	<summary>
+DeclarativeCatalogPart5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SiteAdmin.DeclarativeCatalogPart2">
+	<summary>
+DeclarativeCatalogPart2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SiteAdmin.DeclarativeCatalogPart4">
+	<summary>
+DeclarativeCatalogPart4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SiteAdmin.DeclarativeCatalogPart3">
+	<summary>
+DeclarativeCatalogPart3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SiteAdmin.btneditpage">
+	<summary>
+btneditpage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SiteAdmin.btnaddwebpart">
+	<summary>
+btnaddwebpart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SiteAdmin.btnclosepage">
+	<summary>
+btnclosepage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SiteAdmin.btnpreviewpage">
+	<summary>
+btnpreviewpage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SiteAdmin.EditorZone1">
+	<summary>
+EditorZone1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SiteAdmin.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpphotoslide.rptImages">
+	<summary>
+rptImages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpProducts.wpproductcategoriesfeatured1">
+	<summary>
+wpproductcategoriesfeatured1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpProducts.wpproductslist1">
+	<summary>
+wpproductslist1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.pageproperties2.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.pageproperties2.RadScriptManager1">
+	<summary>
+RadScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.pageproperties2.FormView1">
+	<summary>
+FormView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.pageproperties2.dspage">
+	<summary>
+dspage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.pageproperties2.dscontenttype">
+	<summary>
+dscontenttype control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.pageproperties2.dsusers">
+	<summary>
+dsusers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default10.RadCodeBlock1">
+	<summary>
+RadCodeBlock1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default10.RadAjaxManager1">
+	<summary>
+RadAjaxManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default10.RadGrid1">
+	<summary>
+RadGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default10.dsuserlist">
+	<summary>
+dsuserlist control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default10.RadWindowManager1">
+	<summary>
+RadWindowManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default10.RadAjaxLoadingPanel1">
+	<summary>
+RadAjaxLoadingPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.sitemap1.RadSiteMap1">
+	<summary>
+RadSiteMap1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.sitemap1.dssitemap">
+	<summary>
+dssitemap control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.RadCodeBlock1">
+	<summary>
+RadCodeBlock1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.Radsplitter1">
+	<summary>
+Radsplitter1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.LeftPane">
+	<summary>
+LeftPane control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.btnaddpage">
+	<summary>
+btnaddpage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.RadTreeView1">
+	<summary>
+RadTreeView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.lblmsg">
+	<summary>
+lblmsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.RadSplitBar1">
+	<summary>
+RadSplitBar1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.MiddlePane">
+	<summary>
+MiddlePane control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.FormView1">
+	<summary>
+FormView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.dspages">
+	<summary>
+dspages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.dspage">
+	<summary>
+dspage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.RadAjaxLoadingPanel1">
+	<summary>
+RadAjaxLoadingPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.RadAjaxManager1">
+	<summary>
+RadAjaxManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.RadToolTipManager1">
+	<summary>
+RadToolTipManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.RadWindowManager1">
+	<summary>
+RadWindowManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default3.pagepropdialog">
+	<summary>
+pagepropdialog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Product_Categories_Default.RadCodeBlock1">
+	<summary>
+RadCodeBlock1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Product_Categories_Default.RadGrid1">
+	<summary>
+RadGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Product_Categories_Default.RadWindowManager1">
+	<summary>
+RadWindowManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Product_Categories_Default.formsettings">
+	<summary>
+formsettings control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.CMSAdmin.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.CMSAdmin.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.CMSAdmin.RadScriptManager1">
+	<summary>
+RadScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.CMSAdmin.HeadLoginView">
+	<summary>
+HeadLoginView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.CMSAdmin.RadMenu1">
+	<summary>
+RadMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.CMSAdmin.cphbody">
+	<summary>
+cphbody control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:tfsCMS.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:tfsCMS.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:tfsCMS.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:tfsCMS.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:tfsCMS.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:tfsCMS.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:tfsCMS.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:tfsCMS.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:tfsCMS.wpForms.emailus">
+	<summary>
+emailus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.changepassword.ChangePassword1">
+	<summary>
+ChangePassword1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._gallery_logo_slide_photos.RadCodeBlock1">
+	<summary>
+RadCodeBlock1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._gallery_logo_slide_photos.RadGrid1">
+	<summary>
+RadGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._gallery_logo_slide_photos.RadWindowManager1">
+	<summary>
+RadWindowManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._gallery_logo_slide_photos.formsettings">
+	<summary>
+formsettings control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._gallery_photo_slide_photos.RadCodeBlock1">
+	<summary>
+RadCodeBlock1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._gallery_photo_slide_photos.RadGrid1">
+	<summary>
+RadGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._gallery_photo_slide_photos.RadWindowManager1">
+	<summary>
+RadWindowManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._gallery_photo_slide_photos.formsettings">
+	<summary>
+formsettings control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.searchbar.txtsearch">
+	<summary>
+txtsearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.searchbar.btnsearch">
+	<summary>
+btnsearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearchproduct.Search">
+	<summary>
+Search control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearchproduct.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearchproduct.srchbtn">
+	<summary>
+srchbtn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearchproduct.pnlSearchResults">
+	<summary>
+pnlSearchResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearchproduct.lblSearchWords">
+	<summary>
+lblSearchWords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearchproduct.lblFilesFound">
+	<summary>
+lblFilesFound control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearchproduct.dgrdPages">
+	<summary>
+dgrdPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearchproduct.emptypanel">
+	<summary>
+emptypanel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SitemapXMLGenerator.btnGenerate">
+	<summary>
+btnGenerate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.SitemapXMLGenerator.hplSiteMapXML">
+	<summary>
+hplSiteMapXML control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wplogoslide.rptImages">
+	<summary>
+rptImages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.Login.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.Login.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.Login.LoginUser">
+	<summary>
+LoginUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.welcome.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.welcome.lbltitle">
+	<summary>
+lbltitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.ImageEditor.RadImageEditor1">
+	<summary>
+RadImageEditor1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Products_Default.RadCodeBlock1">
+	<summary>
+RadCodeBlock1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Products_Default.RadGrid1">
+	<summary>
+RadGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Products_Default.RadWindowManager1">
+	<summary>
+RadWindowManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Products_Default.formsettings">
+	<summary>
+formsettings control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpproductslist.urlHash">
+	<summary>
+urlHash control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpproductslist.rptMainItem">
+	<summary>
+rptMainItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearch.Search">
+	<summary>
+Search control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearch.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearch.srchbtn">
+	<summary>
+srchbtn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearch.AllWords">
+	<summary>
+AllWords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearch.AnyWords">
+	<summary>
+AnyWords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearch.Phrase">
+	<summary>
+Phrase control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearch.pnlSearchResults">
+	<summary>
+pnlSearchResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearch.lblSearchWords">
+	<summary>
+lblSearchWords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearch.lblFilesFound">
+	<summary>
+lblFilesFound control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearch.dgrdPages">
+	<summary>
+dgrdPages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearch.lblTotalFiles">
+	<summary>
+lblTotalFiles control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpsearch.emptypanel">
+	<summary>
+emptypanel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.settings.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.settings.RadScriptManager1">
+	<summary>
+RadScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.settings.FormView1">
+	<summary>
+FormView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.settings.dssettings">
+	<summary>
+dssettings control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.emailus.RequiredFieldValidator4">
+	<summary>
+RequiredFieldValidator4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.emailus.txtfullname">
+	<summary>
+txtfullname control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.emailus.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.emailus.txtcontactno">
+	<summary>
+txtcontactno control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.emailus.RequiredFieldValidator5">
+	<summary>
+RequiredFieldValidator5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.emailus.RegularExpressionValidator1">
+	<summary>
+RegularExpressionValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.emailus.txtemail">
+	<summary>
+txtemail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.emailus.rfvmsg">
+	<summary>
+rfvmsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.emailus.txtmsg">
+	<summary>
+txtmsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.emailus.btnsend">
+	<summary>
+btnsend control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpHeaderMenu.rptMainItem">
+	<summary>
+rptMainItem control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.RadTabStrip1">
+	<summary>
+RadTabStrip1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.RadMultiPage1">
+	<summary>
+RadMultiPage1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.RadPageView1">
+	<summary>
+RadPageView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.FormView1">
+	<summary>
+FormView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.RadPageView2">
+	<summary>
+RadPageView2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.lblhost">
+	<summary>
+lblhost control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.lblport">
+	<summary>
+lblport control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.chkssl">
+	<summary>
+chkssl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.lblusername">
+	<summary>
+lblusername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.lblpassword">
+	<summary>
+lblpassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.lblemailaddress">
+	<summary>
+lblemailaddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.txtemail">
+	<summary>
+txtemail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.btnsend">
+	<summary>
+btnsend control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.RegularExpressionValidator1">
+	<summary>
+RegularExpressionValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.lblmsg">
+	<summary>
+lblmsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.RadAjaxLoadingPanel1">
+	<summary>
+RadAjaxLoadingPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._Default9.dssettings">
+	<summary>
+dssettings control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.tfsCMS._default.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpproductcategoriesfeatured.rptImages">
+	<summary>
+rptImages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:tfsCMS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:tfsCMS.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:tfsCMS.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:tfsCMS.wpCommon.wpcontent1">
+	<summary>
+wpcontent1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._default7.ListView1">
+	<summary>
+ListView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS._default7.dsModules">
+	<summary>
+dsModules control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.DefaultMaster.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.DefaultMaster.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.DefaultMaster.HeaderMenu1">
+	<summary>
+HeaderMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.DefaultMaster.cphbody">
+	<summary>
+cphbody control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.DefaultMaster.dsmenu">
+	<summary>
+dsmenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.DefaultMaster.dsMenuFooter">
+	<summary>
+dsMenuFooter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.DefaultMaster.RadWindowManager1">
+	<summary>
+RadWindowManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.DefaultMaster.ldialog">
+	<summary>
+ldialog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.DefaultMaster.mdialog">
+	<summary>
+mdialog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.DefaultMaster.mdialog2">
+	<summary>
+mdialog2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpMedia.flash1">
+	<summary>
+flash1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.wpMedia.logoslide1">
+	<summary>
+logoslide1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.thankyou.BreadCrumb1">
+	<summary>
+BreadCrumb1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.thankyou.litmsg">
+	<summary>
+litmsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:tfsCMS.page_under_construction.BreadCrumb1">
+	<summary>
+BreadCrumb1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

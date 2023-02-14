@@ -1,0 +1,64 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="CMSAdmin.master.vb" Inherits="tfsCMS.CMSAdmin" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>TFS CMS</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+  
+    </asp:ContentPlaceHolder>
+</head>
+<body style="margin:0;padding:0" >
+    <form id="form1" runat="server">
+    <telerik:RadScriptManager ID="RadScriptManager1" Runat="server">
+        </telerik:RadScriptManager>
+    <script type="text/javascript" src='<%# ResolveUrl("~/Scripts/jquery-1.11.0.js")%>'></script>         
+    <div  class="header">  
+    <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]<br />
+                         
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/App_Themes/Admin/images/user.png" AlternateText="User" height="20px" /> Logged in as <b><asp:LoginName ID="HeadLoginName" runat="server" /></b>
+                        <asp:HyperLink ID="HyperLink2" runat="server" ForeColor="#00CCFF" Font-Underline="False"  NavigateUrl="~/Account/changepassword.aspx">Change Password</asp:HyperLink> | <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect"  Font-Underline="False" LogoutText="Log Out" LogoutPageUrl="~/Account/Login.aspx" ForeColor="#00CCFF" />  
+                        
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+       </div>
+ 
+      <!--NAVIGATION -->
+<div id="navigation">  
+    <div class="divwrap">
+    <nav class="clearfix">
+        <telerik:RadMenu ID="RadMenu1" runat="server" EnableEmbeddedSkins="False" style="z-index:2400; top: 0px; left: 0px;">
+              <Items>
+                  <telerik:RadMenuItem runat="server" Text="PAGES" NavigateUrl="~/admin/pages/">
+                  </telerik:RadMenuItem>
+                  <telerik:RadMenuItem runat="server" Text="MODULES" NavigateUrl="~/Modules/" >
+                      
+                  </telerik:RadMenuItem>
+                  <telerik:RadMenuItem runat="server" Text="File Manager" NavigateUrl="~/admin/filemanager/">
+                  </telerik:RadMenuItem>
+                   <telerik:RadMenuItem runat="server" Text="USERS" NavigateUrl="~/admin/users/">
+                  </telerik:RadMenuItem>
+                  <telerik:RadMenuItem runat="server" Text="TOOLS">
+                      <Items>
+                          <telerik:RadMenuItem runat="server" Text="SITEMAP XML GENERATOR" NavigateUrl="~/admin/tools/Sitemap-XML-Generator.aspx">
+                          </telerik:RadMenuItem>
+                      </Items>
+                  </telerik:RadMenuItem>
+                     
+              </Items>
+          </telerik:RadMenu>
+        <a href="#" id="pull">Menu</a> </nav>
+  </div>
+  </div>
+        <div style="padding: 0; background-color: #fff; width: 100%; min-height: 500px;">      
+            <asp:ContentPlaceHolder ID="cphbody" runat="server">                       
+            </asp:ContentPlaceHolder>        
+        </div>
+    </form>
+</body>
+</html>

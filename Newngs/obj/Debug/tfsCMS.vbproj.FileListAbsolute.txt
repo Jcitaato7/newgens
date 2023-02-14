@@ -1,0 +1,9 @@
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\obj\Debug\tfsCMS.Resources.resources
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\obj\Debug\tfsCMS.vbproj.GenerateResource.Cache
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\bin\tfsCMS.dll
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\bin\tfsCMS.pdb
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\bin\tfsCMS.xml
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\obj\Debug\tfsCMS.dll
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\obj\Debug\tfsCMS.xml
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\obj\Debug\tfsCMS.pdb
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\obj\Debug\tfsCMS.vbprojResolveAssemblyReference.cache

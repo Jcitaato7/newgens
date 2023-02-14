@@ -1,0 +1,31 @@
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\techCMS\bin\tfsCMS.dll
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\techCMS\bin\tfsCMS.pdb
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\techCMS\bin\tfsCMS.xml
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\techCMS\bin\techCart.DAL.dll
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\techCMS\bin\techCart.DAL.pdb
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\techCMS\bin\techCart.DAL.xml
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\techCMS\obj\Release\techCMS.vbprojResolveAssemblyReference.cache
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\techCMS\obj\Release\tfsCMS.Resources.resources
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\techCMS\obj\Release\techCMS.vbproj.GenerateResource.Cache
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\techCMS\obj\Release\tfsCMS.dll
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\techCMS\obj\Release\tfsCMS.xml
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\techCMS\obj\Release\tfsCMS.pdb
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\techCMS\bin\techCMS.DAL.dll
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\techCMS\bin\techCMS.DAL.pdb
+D:\Documents\My Work\Projects\2013\UNIWES\Solutions\techCMS\bin\techCMS.DAL.xml
+C:\Users\joel.ballesta\Documents\My Work\Projects\2014\Universal Solutions\Solutions\techCMS\bin\tfsCMS.dll.config
+C:\Users\joel.ballesta\Documents\My Work\Projects\2014\Universal Solutions\Solutions\techCMS\bin\tfsCMS.dll
+C:\Users\joel.ballesta\Documents\My Work\Projects\2014\Universal Solutions\Solutions\techCMS\bin\tfsCMS.pdb
+C:\Users\joel.ballesta\Documents\My Work\Projects\2014\Universal Solutions\Solutions\techCMS\bin\tfsCMS.xml
+C:\Users\joel.ballesta\Documents\My Work\Projects\2014\Universal Solutions\Solutions\techCMS\bin\techCart.DAL.dll
+C:\Users\joel.ballesta\Documents\My Work\Projects\2014\Universal Solutions\Solutions\techCMS\bin\techCMS.DAL.dll
+C:\Users\joel.ballesta\Documents\My Work\Projects\2014\Universal Solutions\Solutions\techCMS\bin\techCart.DAL.pdb
+C:\Users\joel.ballesta\Documents\My Work\Projects\2014\Universal Solutions\Solutions\techCMS\bin\techCart.DAL.xml
+C:\Users\joel.ballesta\Documents\My Work\Projects\2014\Universal Solutions\Solutions\techCMS\bin\techCMS.DAL.pdb
+C:\Users\joel.ballesta\Documents\My Work\Projects\2014\Universal Solutions\Solutions\techCMS\bin\techCMS.DAL.xml
+C:\Users\joel.ballesta\Documents\My Work\Projects\2014\Universal Solutions\Solutions\techCMS\obj\Release\techCMS.vbprojResolveAssemblyReference.cache
+C:\Users\joel.ballesta\Documents\My Work\Projects\2014\Universal Solutions\Solutions\techCMS\obj\Release\tfsCMS.Resources.resources
+C:\Users\joel.ballesta\Documents\My Work\Projects\2014\Universal Solutions\Solutions\techCMS\obj\Release\techCMS.vbproj.GenerateResource.Cache
+C:\Users\joel.ballesta\Documents\My Work\Projects\2014\Universal Solutions\Solutions\techCMS\obj\Release\tfsCMS.dll
+C:\Users\joel.ballesta\Documents\My Work\Projects\2014\Universal Solutions\Solutions\techCMS\obj\Release\tfsCMS.xml
+C:\Users\joel.ballesta\Documents\My Work\Projects\2014\Universal Solutions\Solutions\techCMS\obj\Release\tfsCMS.pdb

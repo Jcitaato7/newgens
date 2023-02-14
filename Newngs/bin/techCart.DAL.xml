@@ -1,0 +1,1468 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+techCart.DAL
+</name>
+</assembly>
+<members>
+<member name="M:techCart.DAL.OrderService.PlaceOrderByCustomerProfile(techCart.DAL.CustomerProfile)">
+	<summary>
+ Save customer profile, create the order, and send email notifications
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:techCart.DAL.ITask.Execute(System.Xml.XmlNode)">
+	<summary>
+ Execute task
+ </summary>
+	<param name="node">Custom configuration node</param>
+</member><member name="T:techCart.DAL.ITask">
+	<summary>
+ Interface that should be implemented by each task
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.#ctor">
+	<summary>
+ Initializes a new CartEntities object using the connection string found in the 'CartEntities' section of the application configuration file.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.#ctor(System.String)">
+	<summary>
+ Initialize a new CartEntities object.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Initialize a new CartEntities object.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.CartItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.CustomerSessions">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.OrderProducts">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.Orders">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.Status">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.Countries">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.Notifications">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.CustomerProfiles">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.NotificationEmails">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.ProductVariants">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.Manufacturers">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.Dealers">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.Product_Photo_Mapping">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.Photos">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.Products">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.ProductCategory_Photo_Mapping">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.ProductCategories">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartEntities.Vacancies">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToCartItems(techCart.DAL.CartItem)">
+	<summary>
+ Deprecated Method for adding a new object to the CartItems EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToCustomerSessions(techCart.DAL.CustomerSession)">
+	<summary>
+ Deprecated Method for adding a new object to the CustomerSessions EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToOrderProducts(techCart.DAL.OrderProduct)">
+	<summary>
+ Deprecated Method for adding a new object to the OrderProducts EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToOrders(techCart.DAL.Order)">
+	<summary>
+ Deprecated Method for adding a new object to the Orders EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToStatus(techCart.DAL.Status)">
+	<summary>
+ Deprecated Method for adding a new object to the Status EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToCountries(techCart.DAL.Country)">
+	<summary>
+ Deprecated Method for adding a new object to the Countries EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToNotifications(techCart.DAL.Notification)">
+	<summary>
+ Deprecated Method for adding a new object to the Notifications EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToCustomerProfiles(techCart.DAL.CustomerProfile)">
+	<summary>
+ Deprecated Method for adding a new object to the CustomerProfiles EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToNotificationEmails(techCart.DAL.NotificationEmails)">
+	<summary>
+ Deprecated Method for adding a new object to the NotificationEmails EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToProductVariants(techCart.DAL.ProductVariant)">
+	<summary>
+ Deprecated Method for adding a new object to the ProductVariants EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToManufacturers(techCart.DAL.Manufacturer)">
+	<summary>
+ Deprecated Method for adding a new object to the Manufacturers EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToDealers(techCart.DAL.Dealer)">
+	<summary>
+ Deprecated Method for adding a new object to the Dealers EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToProduct_Photo_Mapping(techCart.DAL.Product_Photo_Mapping)">
+	<summary>
+ Deprecated Method for adding a new object to the Product_Photo_Mapping EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToPhotos(techCart.DAL.Photo)">
+	<summary>
+ Deprecated Method for adding a new object to the Photos EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToProducts(techCart.DAL.Product)">
+	<summary>
+ Deprecated Method for adding a new object to the Products EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToProductCategory_Photo_Mapping(techCart.DAL.ProductCategory_Photo_Mapping)">
+	<summary>
+ Deprecated Method for adding a new object to the ProductCategory_Photo_Mapping EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToProductCategories(techCart.DAL.ProductCategory)">
+	<summary>
+ Deprecated Method for adding a new object to the ProductCategories EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.AddToVacancies(techCart.DAL.Vacancy)">
+	<summary>
+ Deprecated Method for adding a new object to the Vacancies EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCart.DAL.CartEntities.udf_ProductSearch(System.String)">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+	<param name="keywords">No Metadata Documentation available.</param>
+</member><member name="T:techCart.DAL.CartEntities">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.CartItem.CreateCartItem(System.Int32,System.Guid,System.Int32,System.Int32)">
+	<summary>
+ Create a new CartItem object.
+ </summary>
+	<param name="cartItemID">Initial value of the CartItemID property.</param>
+	<param name="customerSessionGUID">Initial value of the CustomerSessionGUID property.</param>
+	<param name="productVariantID">Initial value of the ProductVariantID property.</param>
+	<param name="quantity">Initial value of the Quantity property.</param>
+</member><member name="P:techCart.DAL.CartItem.CartItemID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartItem.CustomerSessionGUID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartItem.ProductVariantID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartItem.ProductVariantCustomValue">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartItem.Quantity">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartItem.DateCreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartItem.DateModified">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartItem.CustomerSessions">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CartItem.CustomerSessionsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.CartItem">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.Country.CreateCountry(System.Int32)">
+	<summary>
+ Create a new Country object.
+ </summary>
+	<param name="countryID">Initial value of the CountryID property.</param>
+</member><member name="P:techCart.DAL.Country.CountryID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Country.Code">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Country.Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.Country">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.CustomerProfile.CreateCustomerProfile(System.Guid,System.String,System.String,System.Byte,System.String,System.String,System.String,System.Int32,System.String,System.String)">
+	<summary>
+ Create a new CustomerProfile object.
+ </summary>
+	<param name="customerID">Initial value of the CustomerID property.</param>
+	<param name="firstName">Initial value of the FirstName property.</param>
+	<param name="lastName">Initial value of the LastName property.</param>
+	<param name="gender">Initial value of the Gender property.</param>
+	<param name="email">Initial value of the Email property.</param>
+	<param name="addressLine1">Initial value of the AddressLine1 property.</param>
+	<param name="addressCity">Initial value of the AddressCity property.</param>
+	<param name="addressCountryID">Initial value of the AddressCountryID property.</param>
+	<param name="addressPostalCode">Initial value of the AddressPostalCode property.</param>
+	<param name="phoneNumber">Initial value of the PhoneNumber property.</param>
+</member><member name="P:techCart.DAL.CustomerProfile.CustomerID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerProfile.FirstName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerProfile.LastName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerProfile.BirthDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerProfile.Gender">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerProfile.Email">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerProfile.CompanyName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerProfile.AddressLine1">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerProfile.AddressLine2">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerProfile.AddressCity">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerProfile.AddressStateProvince">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerProfile.AddressCountryID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerProfile.AddressPostalCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerProfile.PhoneNumber">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerProfile.FaxNumber">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.CustomerProfile">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.CustomerSession.CreateCustomerSession(System.Guid,System.DateTime,System.Boolean)">
+	<summary>
+ Create a new CustomerSession object.
+ </summary>
+	<param name="customerSessionGUID">Initial value of the CustomerSessionGUID property.</param>
+	<param name="lastAccessed">Initial value of the LastAccessed property.</param>
+	<param name="isExpired">Initial value of the IsExpired property.</param>
+</member><member name="P:techCart.DAL.CustomerSession.CustomerSessionGUID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerSession.CustomerID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerSession.LastAccessed">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerSession.IsExpired">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.CustomerSession.CartItems">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.CustomerSession">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.Dealer.CreateDealer(System.Int32,System.String,System.String,System.Int32,System.String,System.DateTime)">
+	<summary>
+ Create a new Dealer object.
+ </summary>
+	<param name="dealerID">Initial value of the DealerID property.</param>
+	<param name="dealerName">Initial value of the DealerName property.</param>
+	<param name="dealerAddress">Initial value of the DealerAddress property.</param>
+	<param name="manufacturerID">Initial value of the ManufacturerID property.</param>
+	<param name="createdBy">Initial value of the CreatedBy property.</param>
+	<param name="dateCreated">Initial value of the DateCreated property.</param>
+</member><member name="P:techCart.DAL.Dealer.DealerID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Dealer.DealerName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Dealer.DealerAddress">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Dealer.Email">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Dealer.Contact">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Dealer.ContactNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Dealer.FaxNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Dealer.WebLink">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Dealer.ManufacturerID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Dealer.IsActive">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Dealer.CreatedBy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Dealer.ModifiedBy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Dealer.DateCreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Dealer.DateModified">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.Dealer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.Manufacturer.CreateManufacturer(System.Int32,System.String,System.Boolean,System.Boolean,System.Int32,System.DateTime,System.String)">
+	<summary>
+ Create a new Manufacturer object.
+ </summary>
+	<param name="manufacturerID">Initial value of the ManufacturerID property.</param>
+	<param name="name">Initial value of the Name property.</param>
+	<param name="isActive">Initial value of the IsActive property.</param>
+	<param name="useUrl">Initial value of the UseUrl property.</param>
+	<param name="sort">Initial value of the Sort property.</param>
+	<param name="dateCreated">Initial value of the DateCreated property.</param>
+	<param name="createdBy">Initial value of the CreatedBy property.</param>
+</member><member name="P:techCart.DAL.Manufacturer.ManufacturerID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Manufacturer.Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Manufacturer.Description">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Manufacturer.Photo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Manufacturer.Logo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Manufacturer.Url">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Manufacturer.IsActive">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Manufacturer.UseUrl">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Manufacturer.Sort">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Manufacturer.DateCreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Manufacturer.DateModified">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Manufacturer.CreatedBy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Manufacturer.ModifiedBy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.Manufacturer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.Notification.CreateNotification(System.Int32)">
+	<summary>
+ Create a new Notification object.
+ </summary>
+	<param name="notification_id">Initial value of the notification_id property.</param>
+</member><member name="P:techCart.DAL.Notification.notification_id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Notification.notification_code">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Notification.notification_name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Notification.notification_sendto">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Notification.notification_subject">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Notification.notification_isnotify">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Notification.notification_fromname">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Notification.notification_fromemail">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Notification.notification_note">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Notification.notification_isactive">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Notification.notification_msg">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.Notification">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.NotificationEmails.CreateNotificationEmails(System.Int32)">
+	<summary>
+ Create a new NotificationEmails object.
+ </summary>
+	<param name="email_id">Initial value of the email_id property.</param>
+</member><member name="P:techCart.DAL.NotificationEmails.email_id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.NotificationEmails.email_country">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.NotificationEmails.email_sendto">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.NotificationEmails.email_notification_code">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.NotificationEmails.email_notification_lock">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.NotificationEmails">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.Order.CreateOrder(System.Int32,System.Guid,System.Decimal,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32,System.Boolean,System.DateTime)">
+	<summary>
+ Create a new Order object.
+ </summary>
+	<param name="orderID">Initial value of the OrderID property.</param>
+	<param name="customerID">Initial value of the CustomerID property.</param>
+	<param name="totalAmount">Initial value of the TotalAmount property.</param>
+	<param name="paymentMethodID">Initial value of the PaymentMethodID property.</param>
+	<param name="billingFirstName">Initial value of the BillingFirstName property.</param>
+	<param name="billingLastName">Initial value of the BillingLastName property.</param>
+	<param name="billingEmail">Initial value of the BillingEmail property.</param>
+	<param name="billingPhoneNumber">Initial value of the BillingPhoneNumber property.</param>
+	<param name="billingAddress1">Initial value of the BillingAddress1 property.</param>
+	<param name="billingCity">Initial value of the BillingCity property.</param>
+	<param name="billingCountryID">Initial value of the BillingCountryID property.</param>
+	<param name="billingCountryName">Initial value of the BillingCountryName property.</param>
+	<param name="billingPostalCode">Initial value of the BillingPostalCode property.</param>
+	<param name="orderStatusID">Initial value of the OrderStatusID property.</param>
+	<param name="deleted">Initial value of the Deleted property.</param>
+	<param name="dateCreated">Initial value of the DateCreated property.</param>
+</member><member name="P:techCart.DAL.Order.OrderID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.CustomerID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.TotalAmount">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.TaxAmount">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.PaymentMethodID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.BillingFirstName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.BillingLastName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.BillingEmail">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.BillingPhoneNumber">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.BillingFaxNumber">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.BillingCompany">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.BillingAddress1">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.BillingAddress2">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.BillingCity">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.BillingStateProvince">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.BillingCountryID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.BillingCountryName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.BillingPostalCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.OrderStatusID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.Deleted">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.DateCreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Order.OrderProducts">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.Order">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.OrderProduct.CreateOrderProduct(System.Int32,System.Int32,System.String,System.Decimal,System.Int32)">
+	<summary>
+ Create a new OrderProduct object.
+ </summary>
+	<param name="orderID">Initial value of the OrderID property.</param>
+	<param name="productVariantID">Initial value of the ProductVariantID property.</param>
+	<param name="variantName">Initial value of the VariantName property.</param>
+	<param name="price">Initial value of the Price property.</param>
+	<param name="quantity">Initial value of the Quantity property.</param>
+</member><member name="P:techCart.DAL.OrderProduct.OrderID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.OrderProduct.ProductVariantID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.OrderProduct.VariantName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.OrderProduct.Description">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.OrderProduct.Price">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.OrderProduct.Quantity">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.OrderProduct.Orders">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.OrderProduct.OrdersReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.OrderProduct">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.Photo.CreatePhoto(System.Int32,System.String,System.String,System.Boolean,System.Boolean,System.Byte,System.DateTime,System.String)">
+	<summary>
+ Create a new Photo object.
+ </summary>
+	<param name="photoID">Initial value of the PhotoID property.</param>
+	<param name="fileName">Initial value of the FileName property.</param>
+	<param name="filePath">Initial value of the FilePath property.</param>
+	<param name="isActive">Initial value of the IsActive property.</param>
+	<param name="isFeatured">Initial value of the IsFeatured property.</param>
+	<param name="sort">Initial value of the Sort property.</param>
+	<param name="dateCreated">Initial value of the DateCreated property.</param>
+	<param name="createdBy">Initial value of the CreatedBy property.</param>
+</member><member name="P:techCart.DAL.Photo.PhotoID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Photo.FileName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Photo.FilePath">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Photo.AlternateText">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Photo.IsActive">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Photo.IsFeatured">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Photo.Sort">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Photo.DateCreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Photo.DateModified">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Photo.CreatedBy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Photo.ModifiedBy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Photo.Product_Photo_Mappings">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Photo.techCMS_ProductCategory_Photo_Mapping">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.Photo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.Product.CreateProduct(System.Int32,System.String,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.DateTime,System.String)">
+	<summary>
+ Create a new Product object.
+ </summary>
+	<param name="productID">Initial value of the ProductID property.</param>
+	<param name="productName">Initial value of the ProductName property.</param>
+	<param name="productCategoryID">Initial value of the ProductCategoryID property.</param>
+	<param name="isActive">Initial value of the IsActive property.</param>
+	<param name="isFeatured">Initial value of the IsFeatured property.</param>
+	<param name="withVariants">Initial value of the WithVariants property.</param>
+	<param name="enableAddToCart">Initial value of the EnableAddToCart property.</param>
+	<param name="dateCreated">Initial value of the DateCreated property.</param>
+	<param name="createdBy">Initial value of the CreatedBy property.</param>
+</member><member name="P:techCart.DAL.Product.ProductID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.ProductCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.ProductName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.ShortDescription">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.FullDescription">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.ProductCategoryID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.ManufacturerID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.PageTitle">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.MetaDescription">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.MetaKeywords">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.ProductSort">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.Photo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.Video">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.Brochure">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.IsActive">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.IsFeatured">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.WithVariants">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.EnableAddToCart">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.DateCreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.DateModified">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.CreatedBy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.ModifiedBy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.Product_Photo_Mapping">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.ProductVariants">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.ProductCategories">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product.ProductCategoriesReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.Product">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.Product_Photo_Mapping.CreateProduct_Photo_Mapping(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Create a new Product_Photo_Mapping object.
+ </summary>
+	<param name="productPhotoID">Initial value of the ProductPhotoID property.</param>
+	<param name="productID">Initial value of the ProductID property.</param>
+	<param name="photoID">Initial value of the PhotoID property.</param>
+</member><member name="P:techCart.DAL.Product_Photo_Mapping.ProductPhotoID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product_Photo_Mapping.ProductID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product_Photo_Mapping.PhotoID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product_Photo_Mapping.Photos">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product_Photo_Mapping.PhotosReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product_Photo_Mapping.Products">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Product_Photo_Mapping.ProductsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.Product_Photo_Mapping">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.ProductCategory.CreateProductCategory(System.Int32,System.String,System.Int32,System.Int32,System.Boolean,System.Boolean,System.DateTime)">
+	<summary>
+ Create a new ProductCategory object.
+ </summary>
+	<param name="productCategoryID">Initial value of the ProductCategoryID property.</param>
+	<param name="categoryName">Initial value of the CategoryName property.</param>
+	<param name="categoryParentID">Initial value of the CategoryParentID property.</param>
+	<param name="categoryLevel">Initial value of the CategoryLevel property.</param>
+	<param name="isActive">Initial value of the IsActive property.</param>
+	<param name="isFeatured">Initial value of the IsFeatured property.</param>
+	<param name="dateCreated">Initial value of the DateCreated property.</param>
+</member><member name="P:techCart.DAL.ProductCategory.ProductCategoryID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory.CategoryName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory.CategoryParentID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory.CategoryLevel">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory.ShortDescription">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory.FullDescription">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory.Keywords">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory.CategoryPhoto">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory.CategorySort">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory.IsActive">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory.IsFeatured">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory.DateCreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory.DateModified">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory.CreatedBy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory.ModifiedBy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory.ProductCategory_Photo_Mapping">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory.Products">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.ProductCategory">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.ProductCategory_Photo_Mapping.CreateProductCategory_Photo_Mapping(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Create a new ProductCategory_Photo_Mapping object.
+ </summary>
+	<param name="mappingID">Initial value of the MappingID property.</param>
+	<param name="productCategoryID">Initial value of the ProductCategoryID property.</param>
+	<param name="photoID">Initial value of the PhotoID property.</param>
+</member><member name="P:techCart.DAL.ProductCategory_Photo_Mapping.MappingID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory_Photo_Mapping.ProductCategoryID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory_Photo_Mapping.PhotoID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory_Photo_Mapping.Photos">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory_Photo_Mapping.PhotosReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory_Photo_Mapping.ProductCategories">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductCategory_Photo_Mapping.ProductCategoriesReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.ProductCategory_Photo_Mapping">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.ProductVariant.CreateProductVariant(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.DateTime,System.String)">
+	<summary>
+ Create a new ProductVariant object.
+ </summary>
+	<param name="productVariantID">Initial value of the ProductVariantID property.</param>
+	<param name="productID">Initial value of the ProductID property.</param>
+	<param name="isRecurring">Initial value of the IsRecurring property.</param>
+	<param name="isFree">Initial value of the IsFree property.</param>
+	<param name="isActive">Initial value of the IsActive property.</param>
+	<param name="isMainVariant">Initial value of the IsMainVariant property.</param>
+	<param name="dateCreated">Initial value of the DateCreated property.</param>
+	<param name="createdBy">Initial value of the CreatedBy property.</param>
+</member><member name="P:techCart.DAL.ProductVariant.ProductVariantID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.ProductID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.VariantName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.SKU">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.Description">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.VariantPhoto">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.Price">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.OldPrice">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.Sort">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.DateAvailable">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.TaxID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.Condition">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.IsRecurring">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.IsFree">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.IsActive">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.IsMainVariant">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.DateCreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.DateModified">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.CreatedBy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.ModifiedBy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.Products">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.ProductVariant.ProductsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.ProductVariant">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.Status.CreateStatus(System.Int32,System.String)">
+	<summary>
+ Create a new Status object.
+ </summary>
+	<param name="statusID">Initial value of the StatusID property.</param>
+	<param name="statusName">Initial value of the StatusName property.</param>
+</member><member name="P:techCart.DAL.Status.StatusID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Status.StatusName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Status.StatusType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.Status">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.Vacancy.CreateVacancy(System.Int32)">
+	<summary>
+ Create a new Vacancy object.
+ </summary>
+	<param name="vacancyID">Initial value of the VacancyID property.</param>
+</member><member name="P:techCart.DAL.Vacancy.VacancyID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Vacancy.VacancyName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Vacancy.ShortDescription">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Vacancy.FullDescription">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Vacancy.IsActive">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Vacancy.CreatedBy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Vacancy.ModifiedBy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Vacancy.DateCreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.Vacancy.DateModified">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.Vacancy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.udf_ProductSearch_Result.Createudf_ProductSearch_Result(System.Int32)">
+	<summary>
+ Create a new udf_ProductSearch_Result object.
+ </summary>
+	<param name="key">Initial value of the Key property.</param>
+</member><member name="P:techCart.DAL.udf_ProductSearch_Result.Key">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCart.DAL.udf_ProductSearch_Result.Rank">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCart.DAL.udf_ProductSearch_Result">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCart.DAL.CartConfig.Create(System.Object,System.Object,System.Xml.XmlNode)">
+	<summary>
+ Creates a configuration section handler.
+ </summary>
+	<param name="parent">Parent object.</param>
+	<param name="configContext">Configuration context object.</param>
+	<param name="section">Section XML node.</param>
+	<returns>The created section handler object.</returns>
+</member><member name="M:techCart.DAL.CartConfig.Init">
+	<summary>
+ Initializes the NopConfig object
+ </summary>
+</member><member name="P:techCart.DAL.CartConfig.ConnectionString">
+	<summary>
+ Gets or sets the connection string that is used to connect to the storage
+ </summary>
+</member><member name="P:techCart.DAL.CartConfig.CookieExpires">
+	<summary>
+ Gets or sets the expiration date and time for the Cookie in hours
+ </summary>
+</member><member name="P:techCart.DAL.CartConfig.ScheduleTasks">
+	<summary>
+ Gets or sets a schedule tasks section
+ </summary>
+</member><member name="M:techCart.DAL.MessageService.SendOrderNotificationMessages(techCart.DAL.Order,System.Object)">
+	<summary>
+ Generate notification message for the customer
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:techCart.DAL.ShoppingCartService.GetAllCartItemsByGuid(System.Guid,System.Int32)">
+	<summary>
+ Get all cart items by session guid
+ </summary>
+</member><member name="M:techCart.DAL.ShoppingCartService.InsertCartItem(System.Nullable{System.Guid},System.Int32,System.Int32,System.String)">
+	<summary>
+ Add item to cart
+ </summary>
+</member><member name="M:techCart.DAL.ShoppingCartService.DeleteCartItem(System.Nullable{System.Guid},System.Int32)">
+	<summary>
+ Delete a cart item
+ </summary>
+</member><member name="M:techCart.DAL.ShoppingCartService.GetCartTotalAmount(System.Guid)">
+	<summary>
+ Compute (sub) total amount of current cart items
+ </summary>
+	<remarks>
+ Not in use yet
+ </remarks>
+</member><member name="M:techCart.DAL.ShoppingCartService.ResetCart(System.Guid)">
+	<summary>
+ Delete all items of a customer on current cart
+ </summary>
+</member><member name="M:techCart.DAL.DeleteExpiredCustomerSessionsTask.Execute(System.Xml.XmlNode)">
+	<summary>
+ Executes a task
+ </summary>
+	<param name="node">Xml node that represents a task description</param>
+</member><member name="P:techCart.DAL.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:techCart.DAL.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:techCart.DAL.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:techCart.DAL.TaskThread.Dispose">
+	<summary>
+ Disposes the instance
+ </summary>
+</member><member name="M:techCart.DAL.TaskThread.InitTimer">
+	<summary>
+ Inits a timer
+ </summary>
+</member><member name="M:techCart.DAL.TaskThread.AddTask(techCart.DAL.Task)">
+	<summary>
+ Adds a task to the thread
+ </summary>
+	<param name="task">The task to be added</param>
+</member><member name="P:techCart.DAL.TaskThread.Seconds">
+	<summary>
+ Gets the interval in seconds at which to run the tasks
+ </summary>
+</member><member name="P:techCart.DAL.TaskThread.Started">
+	<summary>
+ Get a datetime when thread has been started
+ </summary>
+</member><member name="P:techCart.DAL.TaskThread.IsRunning">
+	<summary>
+ Get a value indicating whether thread is running
+ </summary>
+</member><member name="P:techCart.DAL.TaskThread.Tasks">
+	<summary>
+ Get a list of tasks
+ </summary>
+</member><member name="P:techCart.DAL.TaskThread.Interval">
+	<summary>
+ Gets the interval at which to run the tasks
+ </summary>
+</member><member name="T:techCart.DAL.TaskThread">
+	<summary>
+ Represents task thread
+ </summary>
+</member><member name="M:techCart.DAL.TaskManager.Initialize(System.String,System.String)">
+	<summary>
+ Initializes the task manager with the property values specified in the configuration file.
+ </summary>
+	<param name="configFile">Configuration file</param>
+	<param name="nodePath">Node path</param>
+</member><member name="M:techCart.DAL.TaskManager.Initialize(System.Xml.XmlNode)">
+	<summary>
+ Initializes the task manager with the property values specified in the configuration file.
+ </summary>
+	<param name="node">Node</param>
+</member><member name="M:techCart.DAL.TaskManager.Start">
+	<summary>
+ Starts the task manager
+ </summary>
+</member><member name="M:techCart.DAL.TaskManager.Stop">
+	<summary>
+ Stops the task manager
+ </summary>
+</member><member name="P:techCart.DAL.TaskManager.Instance">
+	<summary>
+ Gets the task mamanger instance
+ </summary>
+</member><member name="P:techCart.DAL.TaskManager.TaskThreads">
+	<summary>
+ Gets a list of task threads of this task manager
+ </summary>
+</member><member name="T:techCart.DAL.TaskManager">
+	<summary>
+ Represents task manager
+ </summary>
+</member><member name="M:techCart.DAL.Task.#ctor">
+	<summary>
+ Ctor for Task
+ </summary>
+</member><member name="M:techCart.DAL.Task.#ctor(System.Type,System.Xml.XmlNode)">
+	<summary>
+ Ctor for Task
+ </summary>
+	<param name="taskType">Task type</param>
+	<param name="configNode">Config XML node</param>
+</member><member name="M:techCart.DAL.Task.Execute">
+	<summary>
+ Executes the task
+ </summary>
+</member><member name="P:techCart.DAL.Task.IsRunning">
+	<summary>
+ A value indicating whether a task is running
+ </summary>
+</member><member name="P:techCart.DAL.Task.LastStarted">
+	<summary>
+ Datetime of the last start
+ </summary>
+</member><member name="P:techCart.DAL.Task.LastEnd">
+	<summary>
+ Datetime of the last end
+ </summary>
+</member><member name="P:techCart.DAL.Task.LastSuccess">
+	<summary>
+ Datetime of the last success
+ </summary>
+</member><member name="P:techCart.DAL.Task.TaskType">
+	<summary>
+ A value indicating type of the task
+ </summary>
+</member><member name="P:techCart.DAL.Task.StopOnError">
+	<summary>
+ A value indicating whether to stop task on error
+ </summary>
+</member><member name="P:techCart.DAL.Task.Name">
+	<summary>
+ Get the task name
+ </summary>
+</member><member name="P:techCart.DAL.Task.Enabled">
+	<summary>
+ A value indicating whether the task is enabled
+ </summary>
+</member>
+</members>
+</doc>

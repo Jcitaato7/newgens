@@ -1,0 +1,98 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/MasterPages/global.master" AutoEventWireup="false" CodeBehind="DefaultMaster.Master.vb" Inherits="tfsCMS.DefaultMaster" %>
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<%@ Register src="~/webparts/navigation/wpHeaderMenu.ascx" tagname="HeaderMenu" tagprefix="techCMS" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
+    <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css' />
+    <script type="text/javascript" src='<%# ResolveUrl("~/Scripts/jquery-1.11.0.js")%>'></script>
+    <script type="text/javascript" src='<%# ResolveUrl("~/Scripts/bootstrap.min.js")%>'></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <asp:ContentPlaceHolder ID="head" runat="server">       
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server"> 
+    <%--<telerik:RadMenu ID="RadMenu1" Runat="server" DataFieldID="webpageid" 
+        DataFieldParentID="webpage_parentid" DataNavigateUrlField="weburl" 
+        DataTextField="webpagename" DataValueField="webpageid" 
+        DataSourceID="dsmenu"  EnableEmbeddedSkins="True" Skin="">
+    </telerik:RadMenu>--%> 
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container"> 
+    
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <asp:Image ID="Image1" runat="server" ImageUrl="~/App_Themes/Default/images/logo.png"></asp:Image>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <techCMS:HeaderMenu ID="HeaderMenu1" runat="server" Title="Header Menu" />
+<%--          <ul class="nav navbar-nav navbar-right">
+            <li  class="active"> <a href="index.html">Home</a> </li>
+            <li> <a href="aboutus.html">About Us</a> </li>
+            <li> <a href="products.html">Products</a> </li>
+            <li> <a href="capabilities.html">Capabilities</a> </li>
+            <li class="dropdown"> <a href="accreditation.html" class="dropdown-toggle" data-toggle="dropdown">Accreditation <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li> <a href="#">Dropdown</a> </li>
+                <li> <a href="#">Dropdown</a> </li>
+              </ul>
+            </li>
+            <li> <a href="facilities.html">Facilities</a> </li>
+            <li> <a href="clients.html">Clients</a> </li>
+            <li> <a href="contactus.html">Contact Us</a> </li>
+          </ul>--%>
+        </div>
+        <!-- /.navbar-collapse --> 
+      </div>
+      <!-- /.container --> 
+    </nav>        
+    <asp:ContentPlaceHolder ID="cphbody" runat="server" />
+    <div class="container"> 
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="footerdesign">
+              <p>Copyright &copy; UNIVERSAL SOLUTION PTE LTD</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+<%--    <div id="footer">
+        <div class="main"> <asp:Image ID="Image1" runat="server" ImageUrl="~/app_themes/default/images/logo-footer.png" /><br/>
+            53 Ubi Avenue 1 #03-13, Paya Ubi Industrial Park, Singapore 408 934<br/>
+            © 2014 UNIWES Engineering (S) Pte Ltd, the NDT FPI Specialist <br />
+            <telerik:RadMenu ID="RadMenu2" Runat="server" DataFieldID="webpageid" 
+                DataFieldParentID="webpage_parentid" DataNavigateUrlField="weburl" 
+                DataTextField="webpagename" DataValueField="webpageid" 
+                        DataSourceID="dsmenu"  EnableEmbeddedSkins="True" CssClass="radFooterMenu" Skin="">
+            </telerik:RadMenu>
+        </div>
+    </div>--%>  
+    <asp:SqlDataSource ID="dsmenu" runat="server" 
+        ConnectionString="<%$ ConnectionStrings:tfsCMSconn %>" 
+        SelectCommand="Select  webpageid,webpagename,weburl,webpage_parentid=(CASE when webpage_parentid =0 THEN NULL ELSE webpage_parentid END)
+        FROM techCMS_webpages where  webpage_navigation=1 order by  websort">
+    </asp:SqlDataSource>
+    <asp:SqlDataSource ID="dsMenuFooter" runat="server" 
+        ConnectionString="<%$ ConnectionStrings:tfsCMSconn %>" SelectCommand="Select  webpageid,webpagename,weburl
+        FROM techCMS_webpages where  webpage_infooteronly=1 and webpage_ispublished=1 order by  webpage_parentid,websort">
+    </asp:SqlDataSource>
+              
+    <telerik:RadWindowManager ID="RadWindowManager1" runat="server" 
+        IconUrl="~/images/page.png" Behavior="Close" AutoSize="true"
+        Skin="Default" Style="z-index:10000"  
+                Modal="True" VisibleStatusbar="False"  DestroyOnClose="true"
+        Behaviors="Close">
+        <Windows>
+            <telerik:RadWindow ID="ldialog" runat="server" Width="800px" Height="700px"  Title="" Modal="true"   />
+            <telerik:RadWindow ID="mdialog" runat="server"  Title="" Modal="true" AutoSize="true"    />
+            <telerik:RadWindow ID="mdialog2" runat="server" Width="900px" Height="600px"  Title="" Modal="true"    />
+        </Windows>
+    </telerik:RadWindowManager>     
+</asp:Content>

@@ -1,0 +1,26 @@
+﻿<%@ Master Language="VB"  MasterPageFile="~/MasterPages/global.master" AutoEventWireup="false"  %>
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" Runat="Server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+ </asp:ContentPlaceHolder>
+    
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" Runat="Server"> 
+
+<style type="text/css">
+  body
+  {
+  background: none !important;
+  }
+ 
+ 
+</style>
+                            <asp:ContentPlaceHolder ID="cphbody" runat="server">
+                            </asp:ContentPlaceHolder>
+                        
+    
+        
+ 
+</asp:Content>

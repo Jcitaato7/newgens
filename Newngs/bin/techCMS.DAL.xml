@@ -1,0 +1,461 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+techCMS.DAL
+</name>
+</assembly>
+<members>
+<member name="T:techCMS.DAL.PhotoManagement.PhotoService">
+	<summary>
+ Generate notification message for the customer
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="P:techCMS.DAL.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:techCMS.DAL.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:techCMS.DAL.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:techCMS.DAL.Emails.NotificationService">
+	<summary>
+ Generate notification message for the customer
+ </summary>
+	<remarks>
+	</remarks>
+</member><member name="M:techCMS.DAL.CMSEntities.#ctor">
+	<summary>
+ Initializes a new CMSEntities object using the connection string found in the 'CMSEntities' section of the application configuration file.
+ </summary>
+</member><member name="M:techCMS.DAL.CMSEntities.#ctor(System.String)">
+	<summary>
+ Initialize a new CMSEntities object.
+ </summary>
+</member><member name="M:techCMS.DAL.CMSEntities.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Initialize a new CMSEntities object.
+ </summary>
+</member><member name="P:techCMS.DAL.CMSEntities.Notifications">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.CMSEntities.PhotoGallery_Photo_Mapping">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.CMSEntities.Photos">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.CMSEntities.PhotoGalleries">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.CMSEntities.WebPages">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.CMSEntities.TabControlContents">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCMS.DAL.CMSEntities.AddToNotifications(techCMS.DAL.Notification)">
+	<summary>
+ Deprecated Method for adding a new object to the Notifications EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCMS.DAL.CMSEntities.AddToPhotoGallery_Photo_Mapping(techCMS.DAL.PhotoGallery_Photo_Mapping)">
+	<summary>
+ Deprecated Method for adding a new object to the PhotoGallery_Photo_Mapping EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCMS.DAL.CMSEntities.AddToPhotos(techCMS.DAL.Photo)">
+	<summary>
+ Deprecated Method for adding a new object to the Photos EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCMS.DAL.CMSEntities.AddToPhotoGalleries(techCMS.DAL.PhotoGallery)">
+	<summary>
+ Deprecated Method for adding a new object to the PhotoGalleries EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCMS.DAL.CMSEntities.AddToWebPages(techCMS.DAL.WebPage)">
+	<summary>
+ Deprecated Method for adding a new object to the WebPages EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCMS.DAL.CMSEntities.AddToTabControlContents(techCMS.DAL.TabControlContent)">
+	<summary>
+ Deprecated Method for adding a new object to the TabControlContents EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:techCMS.DAL.CMSEntities.techCMS_WebPages_BreadCrumbItems(System.String)">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+	<param name="pageFileName">No Metadata Documentation available.</param>
+</member><member name="T:techCMS.DAL.CMSEntities">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCMS.DAL.Notification.CreateNotification(System.Int32)">
+	<summary>
+ Create a new Notification object.
+ </summary>
+	<param name="notification_id">Initial value of the notification_id property.</param>
+</member><member name="P:techCMS.DAL.Notification.notification_id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Notification.notification_code">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Notification.notification_name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Notification.notification_subject">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Notification.notification_isnotify">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Notification.notification_fromname">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Notification.notification_fromemail">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Notification.notification_note">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Notification.notification_isactive">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Notification.notification_msg">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Notification.notification_sendto">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCMS.DAL.Notification">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCMS.DAL.Photo.CreatePhoto(System.Int32,System.String,System.String,System.Boolean,System.Boolean,System.Byte,System.DateTime,System.String)">
+	<summary>
+ Create a new Photo object.
+ </summary>
+	<param name="photoID">Initial value of the PhotoID property.</param>
+	<param name="fileName">Initial value of the FileName property.</param>
+	<param name="filePath">Initial value of the FilePath property.</param>
+	<param name="isActive">Initial value of the IsActive property.</param>
+	<param name="isFeatured">Initial value of the IsFeatured property.</param>
+	<param name="sort">Initial value of the Sort property.</param>
+	<param name="dateCreated">Initial value of the DateCreated property.</param>
+	<param name="createdBy">Initial value of the CreatedBy property.</param>
+</member><member name="P:techCMS.DAL.Photo.PhotoID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Photo.FileName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Photo.FilePath">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Photo.AlternateText">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Photo.Description">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Photo.IsActive">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Photo.IsFeatured">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Photo.Sort">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Photo.DateCreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Photo.DateModified">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Photo.CreatedBy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Photo.ModifiedBy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.Photo.PhotoGallery_Photo_Mapping">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCMS.DAL.Photo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCMS.DAL.PhotoGallery.CreatePhotoGallery(System.Int32,System.Byte)">
+	<summary>
+ Create a new PhotoGallery object.
+ </summary>
+	<param name="galleryPhotoID">Initial value of the GalleryPhotoID property.</param>
+	<param name="galleryType">Initial value of the GalleryType property.</param>
+</member><member name="P:techCMS.DAL.PhotoGallery.GalleryPhotoID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.PhotoGallery.GalleryType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.PhotoGallery.PhotoGallery_Photo_Mapping">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCMS.DAL.PhotoGallery">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCMS.DAL.PhotoGallery_Photo_Mapping.CreatePhotoGallery_Photo_Mapping(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Create a new PhotoGallery_Photo_Mapping object.
+ </summary>
+	<param name="mappingID">Initial value of the MappingID property.</param>
+	<param name="galleryPhotoID">Initial value of the GalleryPhotoID property.</param>
+	<param name="photoID">Initial value of the PhotoID property.</param>
+</member><member name="P:techCMS.DAL.PhotoGallery_Photo_Mapping.MappingID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.PhotoGallery_Photo_Mapping.GalleryPhotoID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.PhotoGallery_Photo_Mapping.PhotoID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.PhotoGallery_Photo_Mapping.Photos">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.PhotoGallery_Photo_Mapping.PhotosReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.PhotoGallery_Photo_Mapping.PhotoGallery">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.PhotoGallery_Photo_Mapping.PhotoGalleryReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCMS.DAL.PhotoGallery_Photo_Mapping">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCMS.DAL.TabControlContent.CreateTabControlContent(System.Int32,System.String,System.Int32)">
+	<summary>
+ Create a new TabControlContent object.
+ </summary>
+	<param name="tabContentID">Initial value of the TabContentID property.</param>
+	<param name="webPartID">Initial value of the WebPartID property.</param>
+	<param name="sort">Initial value of the Sort property.</param>
+</member><member name="P:techCMS.DAL.TabControlContent.TabContentID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.TabControlContent.WebPartID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.TabControlContent.Sort">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.TabControlContent.Title">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.TabControlContent.Content">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCMS.DAL.TabControlContent">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:techCMS.DAL.WebPage.CreateWebPage(System.Int32)">
+	<summary>
+ Create a new WebPage object.
+ </summary>
+	<param name="webpageid">Initial value of the webpageid property.</param>
+</member><member name="P:techCMS.DAL.WebPage.webpageid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webpagename">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webmenu">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.websection">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webcontent">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webpage_isdefault">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webphotoheader">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webcreatedby">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webmodifiedby">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webdatecreated">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webdatemodified">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.websort">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webpage_parentid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webpage_navigation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webpage_type">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webpage_template">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webpage_ispublished">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webpage_infooteronly">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webpage_islocked">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webpagemetadesc">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webpagemetakey">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webpagetitle">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webpagefilename">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.weburl">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.WebPage.webpageadmins">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCMS.DAL.WebPage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.techCMS_WebPages_BreadCrumbItems_Result.WebPageID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.techCMS_WebPages_BreadCrumbItems_Result.WebPageParentID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.techCMS_WebPages_BreadCrumbItems_Result.WebPageName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.techCMS_WebPages_BreadCrumbItems_Result.WebPageType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.techCMS_WebPages_BreadCrumbItems_Result.WebPageURL">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:techCMS.DAL.techCMS_WebPages_BreadCrumbItems_Result.InverseDepth">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCMS.DAL.techCMS_WebPages_BreadCrumbItems_Result">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:techCMS.DAL.PhotoManagement.PhotoGalleryService">
+	<summary>
+ Generate notification message for the customer
+ </summary>
+	<remarks>
+	</remarks>
+</member>
+</members>
+</doc>

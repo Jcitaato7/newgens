@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Site Under Construction</title>
+ 
+
+ <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <script>
+       
+        $(document).ready(function () {
+            $(".floating-rocket").mouseover(function () {
+                $(this).effect("shake", { times: 10, distance: 2 }, 100);
+            });
+        });
+</script>
+    <style>
+    body {
+  background-image:url(../../images/blockpattern.png);
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:repeat repeat;
+  color:#5C5C5C;
+  font-family:Calibri,Candara;
+  margin:0;
+  padding:0;
+  text-transform:uppercase;
+}
+#launcher {
+  display:block;
+  height:100%;
+  width:100%;
+}
+.page {
+  margin:0 auto;
+  position:relative;
+  width:1000px;
+  padding-top:30px;
+}
+#block {
+  display:block;
+  float:left;
+  height:100%;
+  min-height:400px;
+  overflow:hidden;
+  width:500px;
+}
+#block-text {
+  margin-top:5em;
+}
+h1 {
+  font-weight:normal;
+}
+.text {
+  display:block;
+  font-size:20px;
+  padding-top:10px;  text-transform:none;  font-weight:normal;
+}
+.rocket {
+  float:left;
+  margin-left:3.5em;
+}
+.launchpad {
+  float:right;
+  overflow:visible;
+}
+#footer_area {
+  clear:both;
+  width:100%;
+}
+.footer1 {
+  background-image:url(../../images/fbg.png);
+  background-position:initial initial;
+  background-repeat:repeat repeat;
+  min-height:85px;
+}
+    </style>
+</head>
+<body>
+ <div id="launcher">
+ <div class="page">
+ <div id="block">
+  <img alt="logo" border="0" src="../../App_Themes/Default/images/logo.jpg" />
+ <div id="block-text">
+ <h1>
+We are currently working on awesome new site.
+</h1>
+<p>
+<span class="text">
+We are happy you have stumbled across our website, however we are not ready to launch yet. Our team is still working hard to get the new site up and running.
+</span>
+</p>
+</div>
+ </div>
+
+ <div class="rocket">
+ <img class="floating-rocket" src="../../images/rocket.png" alt="Launching"  />
+ </div>
+ <div class="launchpad">
+
+<img src="../../images/launchpad.png" alt="launchpad"/>
+</div>
+ </div>
+    
+
+    <div id="footer_area" class="footer1">
+<div class="page">
+ 
+</div>
+    </div>
+    <script src="chrome-extension://bmagokdooijbeehmkpknfglimnifench/googleChrome.js"/>
+</body>
+</html>

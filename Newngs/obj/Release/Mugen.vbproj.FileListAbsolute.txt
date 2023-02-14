@@ -1,0 +1,12 @@
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\bin\tfsCMS.dll
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\bin\tfsCMS.pdb
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\bin\tfsCMS.xml
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\bin\techCart.DAL.dll
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\bin\techCart.DAL.pdb
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\bin\techCart.DAL.xml
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\obj\Release\Mugen.vbprojResolveAssemblyReference.cache
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\obj\Release\tfsCMS.Resources.resources
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\obj\Release\Mugen.vbproj.GenerateResource.Cache
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\obj\Release\tfsCMS.dll
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\obj\Release\tfsCMS.xml
+D:\Documents\My Work\Projects\2013\Mugen\Solutions\Mugen\obj\Release\tfsCMS.pdb

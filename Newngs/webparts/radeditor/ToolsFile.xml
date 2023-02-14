@@ -1,0 +1,69 @@
+﻿<root>
+  <tools>
+    <tool name="AjaxSpellCheck"/>
+    <tool separator="true"/>
+    <tool name="Cut"/>
+    <tool name="Copy"/>
+    <tool name="Paste"/>
+    <tool separator="true"/>
+    <tool name="Undo"/>
+    <tool name="Redo"/>
+    <tool separator="true"/>
+    <tool name="ImageManager"/>
+    <tool name="InsertTable"/>
+    <tool separator="true"/>
+    <tool name="LinkManager"/>
+    <tool name="DocumentManager"/>
+    <tool name="FlashManager"/>
+    <tool name="Unlink"/>
+    <tool name="InsertSymbol"/>
+    <tool name="ToggleTableBorder"/>
+
+    <tool separator="true"/>
+    <tool name="Bold"/>
+    <tool name="Italic"/>
+    <tool name="Underline"/>
+    <tool separator="true"/>
+    <tool name="JustifyLeft"/>
+    <tool name="JustifyCenter"/>
+    <tool name="JustifyRight"/>
+    <tool name="JustifyFull"/>
+    <tool separator="true"/>
+  </tools>
+  <tools>
+    <tool name="Superscript"/>
+    <tool name="Subscript"/>
+    <tool separator="true"/>
+    <tool name="InsertOrderedList"/>
+    <tool name="InsertUnorderedList"/>
+    <tool name="Outdent"/>
+    <tool name="Indent"/>
+    <tool name="FormatBlock"/>
+
+    <tool separator="true"/>
+
+    <tool name="ForeColor"/>
+    <tool name="BackColor"/>
+    <tool name="FontName" />
+    <tool name="RealFontSize"/>
+    <tool name="ApplyClass" />
+    <tool name="FormatStripper"/>
+    <tool separator="true"/>
+    <tool name="InsertHorizontalRule"/>
+    
+    <tool separator="true"/>
+    <tool name="ToggleScreenMode"/>
+  </tools>
+  <fontNames>
+    <item name="Times New Roman" />
+    <item name="Arial" />
+    <item name="Arial Narrow" />
+    <item name="Arial Black" />
+    <item name="Verdana" />
+    <item name="Tahoma" />
+    <item name="Trebuchet MS" />
+    <item name="Helvetica" />
+    <item name="sans-serif" />
+  </fontNames>
+
+</root>

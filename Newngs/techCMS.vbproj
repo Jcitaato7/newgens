@@ -1,0 +1,862 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{173A7331-6BC8-4226-8C54-F5CA23DEB023}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>tfsCMS</RootNamespace>
+    <AssemblyName>tfsCMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>tfsCMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PublishDatabases>true</PublishDatabases>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>tfsCMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.Preview, Version=1.3.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Web.Preview.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Web.Design, Version=2013.1.220.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Telerik\RadControls for ASP.NET AJAX Q1 2013\Bin40\Telerik.Web.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2012.1.215.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Telerik\RadControls for ASP.NET AJAX Q1 2013\Bin40\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins, Version=2012.1.215.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Telerik\RadControls for ASP.NET AJAX Q1 2013\Bin40\Telerik.Web.UI.Skins.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\changepassword.aspx" />
+    <Content Include="Account\css\login.css" />
+    <Content Include="Account\images\arrow.png" />
+    <Content Include="Account\images\bg.png" />
+    <Content Include="Account\images\bglogin.jpg" />
+    <Content Include="Account\images\logo-towmotor.png" />
+    <Content Include="Account\images\logo2.png" />
+    <Content Include="Account\images\logo_login.png" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="admin\filemanager\default.aspx" />
+    <Content Include="admin\pages\templates\images\advance.jpg" />
+    <Content Include="admin\pages\templates\images\standard.jpg" />
+    <Content Include="admin\pages\templates\images\standard2.jpg" />
+    <Content Include="admin\pages\templates\standard2.aspx" />
+    <Content Include="admin\settings\Default.aspx" />
+    <Content Include="admin\statistics\Default.aspx" />
+    <Content Include="admin\Tools\files\SiteMap.xml" />
+    <Content Include="admin\Tools\Sitemap-XML-Generator.aspx" />
+    <Content Include="admin\Tools\googleanalytics.aspx" />
+    <Content Include="admin\Tools\ImageEditor.aspx" />
+    <Content Include="admin\users\Default.aspx" />
+    <Content Include="admin\users\emailbody.txt" />
+    <Content Include="admin\users\Recovery.aspx" />
+    <Content Include="App_Themes\admin\images\checkbox-checked.png" />
+    <Content Include="App_Themes\admin\images\checkbox-unchecked.png" />
+    <Content Include="App_Themes\admin\images\Delete.gif" />
+    <Content Include="App_Themes\admin\images\Edit.gif" />
+    <Content Include="App_Themes\admin\images\featured.png" />
+    <Content Include="App_Themes\admin\images\filemgr.png" />
+    <Content Include="App_Themes\admin\images\home.png" />
+    <Content Include="App_Themes\admin\images\loading.gif" />
+    <Content Include="App_Themes\admin\images\logo2.png" />
+    <Content Include="App_Themes\admin\images\module.gif" />
+    <Content Include="App_Themes\admin\images\not-featured.png" />
+    <Content Include="App_Themes\admin\images\page.png" />
+    <Content Include="App_Themes\admin\images\pages.png" />
+    <Content Include="App_Themes\admin\images\reset.png" />
+    <Content Include="App_Themes\admin\images\tab-b.gif" />
+    <Content Include="App_Themes\admin\images\user.png" />
+    <Content Include="App_Themes\admin\images\view.png" />
+    <Content Include="App_Themes\admin\jstab.css" />
+    <Content Include="App_Themes\admin\siteadmin.css" />
+    <Content Include="App_Themes\admin\product.css" />
+    <Content Include="App_Themes\admin\images\bodyback.png" />
+    <Content Include="App_Themes\admin\images\button.png" />
+    <Content Include="App_Themes\admin\images\current-bg.gif" />
+    <Content Include="App_Themes\admin\images\enter.png" />
+    <Content Include="App_Themes\admin\images\menu-bg.gif" />
+    <Content Include="App_Themes\admin\images\nav-icon.png" />
+    <Content Include="App_Themes\admin\images\scrolldown.png" />
+    <Content Include="App_Themes\admin\images\toggle.png" />
+    <Content Include="App_Themes\admin\menu.css" />
+    <Content Include="App_Themes\admin\radmenu.css" />
+    <None Include="App_Themes\Default\bootstrap.min.css.old" />
+    <Content Include="App_Themes\Default\animate.css" />
+    <Content Include="App_Themes\Default\bootstrap.min.css" />
+    <Content Include="App_Themes\Default\cd-hero copy.css" />
+    <Content Include="App_Themes\Default\cd-hero.css" />
+    <Content Include="App_Themes\Default\custom.css" />
+    <Content Include="App_Themes\Default\flexslider.css" />
+    <Content Include="App_Themes\Default\font-awesome.css" />
+    <Content Include="App_Themes\Default\font-awesome.min.css" />
+    <Content Include="App_Themes\Default\fonts\fontawesome-webfont.svg" />
+    <Content Include="App_Themes\Default\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="App_Themes\Default\fonts\jaapokki\jaapokki-regular.svg" />
+    <Content Include="App_Themes\Default\images\about-2.jpg" />
+    <Content Include="App_Themes\Default\images\banner-contact.jpg" />
+    <Content Include="App_Themes\Default\images\banner1.jpg" />
+    <Content Include="App_Themes\Default\images\bg.jpg" />
+    <Content Include="App_Themes\Default\images\list.png" />
+    <Content Include="App_Themes\Default\images\list2.png" />
+    <Content Include="App_Themes\Default\images\loader.gif" />
+    <Content Include="App_Themes\Default\images\loader2.gif" />
+    <Content Include="App_Themes\Default\images\logo.png" />
+    <Content Include="App_Themes\Default\images\nophoto.png" />
+    <Content Include="App_Themes\Default\images\overaly.png" />
+    <Content Include="App_Themes\Default\menu\downArrow.png" />
+    <Content Include="App_Themes\Default\menu\nav-icon.png" />
+    <None Include="App_Themes\Default\responsive.css.old" />
+    <None Include="App_Themes\Default\style.css.old" />
+    <Content Include="App_Themes\Default\owl.carousel.css" />
+    <Content Include="App_Themes\Default\owl.theme.css" />
+    <Content Include="App_Themes\Default\preset3.css" />
+    <Content Include="App_Themes\Default\prettyPhoto.css" />
+    <Content Include="App_Themes\Default\responsive.css" />
+    <Content Include="App_Themes\Default\style.css" />
+    <Content Include="CartWebService.svc" />
+    <Content Include="files\images\aboutus.jpg" />
+    <Content Include="files\images\Air-Compressor-large.jpg" />
+    <Content Include="files\images\air-coolers-universal-solution.jpg" />
+    <Content Include="files\images\api-tank-1.jpg" />
+    <Content Include="files\images\api-tank-2.jpg" />
+    <Content Include="files\images\auto-rotators-large.jpg" />
+    <Content Include="files\images\automatic-welding-machines-large.jpg" />
+    <Content Include="files\images\band-saw-machine-large.jpg" />
+    <Content Include="files\images\capability.jpg" />
+    <Content Include="files\images\cert-BIZSAFE-Level-3-Certification.jpg" />
+    <Content Include="files\images\cert-ISO-9001-Certification.jpg" />
+    <Content Include="files\images\cert-R-Stamp-Certification.jpg" />
+    <Content Include="files\images\cert-U-Stamp.jpg" />
+    <Content Include="files\images\clients-ABB-large.jpg" />
+    <Content Include="files\images\clients-AtlasCopco-large.jpg" />
+    <Content Include="files\images\clients-Celanese-large.jpg" />
+    <Content Include="files\images\clients-emerson-large.jpg" />
+    <Content Include="files\images\clients-ExxonMobil-large.jpg" />
+    <Content Include="files\images\clients-leser-large.jpg" />
+    <Content Include="files\images\clients-munsiong-large.jpg" />
+    <Content Include="files\images\clients-mw-large.jpg" />
+    <Content Include="files\images\clients-peerless-2-large.jpg" />
+    <Content Include="files\images\clients-ptecogreen-large.jpg" />
+    <Content Include="files\images\clients-Shell-large.jpg" />
+    <Content Include="files\images\clients-sulzer.jpg" />
+    <Content Include="files\images\clients-Sumitomo-large.jpg" />
+    <Content Include="files\images\clients-wartsila-large.jpg" />
+    <Content Include="files\images\facilities.jpg" />
+    <Content Include="files\images\heat-exchanger-universal-solution.jpg" />
+    <Content Include="files\images\lathe-large.jpg" />
+    <Content Include="files\images\milling-machine-large.jpg" />
+    <Content Include="files\images\pipe-spool-and-skid-universal-solution.jpg" />
+    <Content Include="files\images\pressure-vessel-1.jpg" />
+    <Content Include="files\images\pressure-vessel-2.jpg" />
+    <Content Include="files\images\pressure-vessel-3.jpg" />
+    <Content Include="files\images\pressure-vessel-4.jpg" />
+    <Content Include="files\images\pressure-vessel-5.jpg" />
+    <Content Include="files\images\pressure-vessel-6.jpg" />
+    <Content Include="files\images\pressure-vessels-universal-solutions.jpg" />
+    <Content Include="files\images\project-one.jpg" />
+    <Content Include="files\images\project-two.jpg" />
+    <Content Include="files\images\radial-drilling-machine-large.jpg" />
+    <Content Include="files\images\tpc-abs1-large.jpg" />
+    <Content Include="files\images\tpc-Bureau-Veritas-large.jpg" />
+    <Content Include="files\images\tpc-DNV-large.jpg" />
+    <Content Include="files\images\tpc-Lloyds-Register-large.jpg" />
+    <Content Include="files\images\tpc-moody-large.jpg" />
+    <Content Include="files\images\tpc-sgs-large.jpg" />
+    <Content Include="files\images\welding-electrode-heating-oven-large.jpg" />
+    <Content Include="files\images\Welding-machine-large.jpg" />
+    <Content Include="Global.asax" />
+    <Content Include="admin\pages\Default.aspx" />
+    <Content Include="admin\pages\loading.htm" />
+    <Content Include="admin\pages\pageproperties.aspx" />
+    <Content Include="admin\pages\templates\advance.aspx" />
+    <Content Include="admin\pages\templates\standard.aspx" />
+    <Content Include="admin\pages\welcome.aspx" />
+    <Content Include="App_Themes\admin\StyleSheet.css" />
+    <Content Include="App_Themes\Default\webpart.css" />
+    <Content Include="default.aspx" />
+    <Content Include="Modules\careers\admin\Default.aspx" />
+    <Content Include="Modules\images\icon_photo_gal.png" />
+    <Content Include="Modules\images\module-icon-enquiries.png" />
+    <Content Include="Modules\images\module-icon-logoslide-photos.png" />
+    <Content Include="Modules\images\module-icon-photoslide-photos.png" />
+    <Content Include="Modules\images\module-icon-prod-categories.png" />
+    <Content Include="Modules\images\module-icon-prod-photos.png" />
+    <Content Include="Modules\images\module-icon-products.png" />
+    <Content Include="Modules\common\settings.aspx" />
+    <Content Include="Modules\photo-gallery\admin\photo-slide-photos.aspx" />
+    <Content Include="Modules\photo-gallery\images\1\universal solution pte ltd - 15 years experience in oil and gas industry.jpg" />
+    <Content Include="Modules\photo-gallery\images\1\universal solution pte ltd - total engineering solutions.jpg" />
+    <Content Include="Modules\photo-gallery\images\1\universal solution pte ltd-exotic material capability.jpg" />
+    <Content Include="Modules\photo-gallery\images\1\universal solution pte ltd-health, safety and environmental - HSE.jpg" />
+    <Content Include="robots.txt" />
+    <Content Include="Scripts\api.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\floating-1.8.js" />
+    <None Include="Scripts\globalSite.js.old" />
+    <None Include="Scripts\bootstrap.min.js.new" />
+    <Content Include="Scripts\cd-hero.js" />
+    <Content Include="Scripts\custom.js" />
+    <None Include="Scripts\jquery-1.11.0.js.old" />
+    <None Include="Scripts\JScript.js.old" />
+    <Content Include="Scripts\gmap3.js" />
+    <Content Include="Scripts\html5shiv.js" />
+    <Content Include="Scripts\ini.isotope.js" />
+    <Content Include="Scripts\isotope.js" />
+    <Content Include="Scripts\jquery.counterup.min.js" />
+    <Content Include="Scripts\jquery.easing.1.3.js" />
+    <Content Include="Scripts\jquery.flexslider.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\jquery.prettyPhoto.js" />
+    <Content Include="Scripts\owl.carousel.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\smoothscroll.js" />
+    <Content Include="Scripts\style-switcher.js" />
+    <Content Include="Scripts\waypoints.min.js" />
+    <Content Include="Scripts\wow.min.js" />
+    <Content Include="tfsCMSService.svc" />
+    <Content Include="webpages\about-us.aspx" />
+    <Content Include="webpages\banking-solution.aspx" />
+    <Content Include="webpages\bottomline-technologies.aspx" />
+    <Content Include="webpages\business-resumption-planning.aspx" />
+    <Content Include="webpages\careers.aspx" />
+    <Content Include="webpages\contact-us.aspx" />
+    <Content Include="webpages\cfrm.aspx" />
+    <Content Include="webpages\gtsuite.aspx" />
+    <Content Include="webpages\hardware-and-services.aspx" />
+    <Content Include="webpages\newgens-pte-ltd.aspx" />
+    <Content Include="webpages\partners.aspx" />
+    <Content Include="webpages\project-management.aspx" />
+    <Content Include="webpages\solution-professional.aspx" />
+    <Content Include="webpages\technical-integration-services.aspx" />
+    <Content Include="webpages\under-construction.aspx" />
+    <Content Include="webpages\home.aspx" />
+    <Content Include="webpages\thank-you.aspx" />
+    <Content Include="webparts\careers\application.aspx" />
+    <Content Include="webparts\careers\emailbody.html" />
+    <Content Include="webparts\careers\job-application.ascx" />
+    <Content Include="webparts\careers\thankyou.aspx" />
+    <Content Include="webparts\careers\wpjobslist.ascx" />
+    <Content Include="webparts\forms\emailbody.html" />
+    <Content Include="webparts\navigation\sidebar.ascx" />
+    <Content Include="webparts\navigation\wpBreadCrumb.ascx" />
+    <Content Include="webparts\navigation\wpHorizontalTabs.ascx" />
+    <Content Include="webparts\forms\emailus.ascx" />
+    <Content Include="webparts\navigation\wpHeaderMenu.ascx" />
+    <Content Include="webparts\navigation\wpGoToTop.ascx" />
+    <Content Include="webparts\photoslide\logoslide.ascx" />
+    <Content Include="webparts\photoslide\flash.ascx" />
+    <Content Include="webparts\products\wpproductdetails.ascx" />
+    <Content Include="webparts\products\wpproductcategoriesfeatured.ascx" />
+    <Content Include="webparts\products\wpproductsfeatured.ascx" />
+    <Content Include="webparts\products\wpproductslist.ascx" />
+    <Content Include="webparts\radeditor\css\StyleSheet.css" />
+    <Content Include="webparts\radeditor\templates\product-brochure.html" />
+    <Content Include="webparts\radeditor\templates\dealer-locator.html" />
+    <Content Include="webparts\search\searchbar.ascx" />
+    <Content Include="webparts\search\wpsearchproduct.ascx" />
+    <Content Include="webparts\search\search.aspx" />
+    <Content Include="webparts\search\wpsearch.ascx" />
+    <Content Include="webparts\navigation\sitemap.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="webpages\Error\FileNotFound.htm" />
+    <Content Include="webpages\Error\GenericError.htm" />
+    <Content Include="webpages\Error\NoAccess.htm" />
+    <Content Include="webpages\Error\UnderConstruction.htm" />
+    <Content Include="webparts\radeditor\ToolsFile.xml" />
+    <Content Include="webparts\radeditor\wpcontent.ascx" />
+    <Content Include="webparts\wpCareer.ascx" />
+    <Content Include="webparts\wpCommon.ascx" />
+    <Content Include="webparts\wpForms.ascx" />
+    <Content Include="webparts\wpMedia.ascx" />
+    <Content Include="webparts\wpNavigations.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\changepassword.aspx.designer.vb">
+      <DependentUpon>changepassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\changepassword.aspx.vb">
+      <DependentUpon>changepassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admin\filemanager\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\filemanager\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\pages\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\pages\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admin\pages\pageproperties.aspx.designer.vb">
+      <DependentUpon>pageproperties.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\pages\pageproperties.aspx.vb">
+      <DependentUpon>pageproperties.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admin\pages\welcome.aspx.designer.vb">
+      <DependentUpon>welcome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\pages\welcome.aspx.vb">
+      <DependentUpon>welcome.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admin\settings\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\settings\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admin\statistics\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\statistics\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admin\Tools\Sitemap-XML-Generator.aspx.designer.vb">
+      <DependentUpon>Sitemap-XML-Generator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Tools\Sitemap-XML-Generator.aspx.vb">
+      <DependentUpon>Sitemap-XML-Generator.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admin\Tools\googleanalytics.aspx.designer.vb">
+      <DependentUpon>googleanalytics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Tools\googleanalytics.aspx.vb">
+      <DependentUpon>googleanalytics.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admin\Tools\ImageEditor.aspx.designer.vb">
+      <DependentUpon>ImageEditor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Tools\ImageEditor.aspx.vb">
+      <DependentUpon>ImageEditor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admin\users\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\users\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="admin\users\Recovery.aspx.designer.vb">
+      <DependentUpon>Recovery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\users\Recovery.aspx.vb">
+      <DependentUpon>Recovery.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CartWebService.svc.vb">
+      <DependentUpon>CartWebService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\CleanHtml.vb" />
+    <Compile Include="Classes\ProductSearch.vb" />
+    <Compile Include="Classes\DistrictInfo.vb" />
+    <Compile Include="Classes\FileContent.vb" />
+    <Compile Include="Classes\GoogleMapInfo.vb" />
+    <Compile Include="Classes\Page.vb" />
+    <Compile Include="Classes\PagesDataset.vb" />
+    <Compile Include="Classes\Site.vb" />
+    <Compile Include="Classes\UserSearch.vb" />
+    <Compile Include="clscode.vb" />
+    <Compile Include="clspagebase.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clswebpart.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FriendlyUrl.vb" />
+    <Compile Include="Modules\careers\admin\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\careers\admin\Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\common\settings.aspx.designer.vb">
+      <DependentUpon>settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\common\settings.aspx.vb">
+      <DependentUpon>settings.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Masterpages\CMSAdmin.Master.designer.vb">
+      <DependentUpon>CMSAdmin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Masterpages\CMSAdmin.Master.vb">
+      <DependentUpon>CMSAdmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masterpages\Default\DefaultMaster.Master.designer.vb">
+      <DependentUpon>DefaultMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Masterpages\Default\DefaultMaster.Master.vb">
+      <DependentUpon>DefaultMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masterpages\dummy.master.designer.vb">
+      <DependentUpon>dummy.master</DependentUpon>
+    </Compile>
+    <Compile Include="Masterpages\dummy.master.vb">
+      <DependentUpon>dummy.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masterpages\SiteAdmin.Master.designer.vb">
+      <DependentUpon>SiteAdmin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Masterpages\SiteAdmin.Master.vb">
+      <DependentUpon>SiteAdmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\photo-gallery\admin\photo-slide-photos.aspx.designer.vb">
+      <DependentUpon>photo-slide-photos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\photo-gallery\admin\photo-slide-photos.aspx.vb">
+      <DependentUpon>photo-slide-photos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tfsCMSService.svc.vb">
+      <DependentUpon>tfsCMSService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="webpages\under-construction.aspx.designer.vb">
+      <DependentUpon>under-construction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webpages\under-construction.aspx.vb">
+      <DependentUpon>under-construction.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="webpages\thank-you.aspx.designer.vb">
+      <DependentUpon>thank-you.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webpages\thank-you.aspx.vb">
+      <DependentUpon>thank-you.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="webparts\careers\application.aspx.designer.vb">
+      <DependentUpon>application.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\careers\application.aspx.vb">
+      <DependentUpon>application.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\careers\job-application.ascx.designer.vb">
+      <DependentUpon>job-application.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\careers\job-application.ascx.vb">
+      <DependentUpon>job-application.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\careers\thankyou.aspx.designer.vb">
+      <DependentUpon>thankyou.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\careers\thankyou.aspx.vb">
+      <DependentUpon>thankyou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\careers\wpjobslist.ascx.designer.vb">
+      <DependentUpon>wpjobslist.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\careers\wpjobslist.ascx.vb">
+      <DependentUpon>wpjobslist.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\navigation\sidebar.ascx.designer.vb">
+      <DependentUpon>sidebar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\navigation\sidebar.ascx.vb">
+      <DependentUpon>sidebar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\navigation\wpBreadCrumb.ascx.designer.vb">
+      <DependentUpon>wpBreadCrumb.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\navigation\wpBreadCrumb.ascx.vb">
+      <DependentUpon>wpBreadCrumb.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\navigation\wpHorizontalTabs.ascx.designer.vb">
+      <DependentUpon>wpHorizontalTabs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\navigation\wpHorizontalTabs.ascx.vb">
+      <DependentUpon>wpHorizontalTabs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\forms\emailus.ascx.designer.vb">
+      <DependentUpon>emailus.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\forms\emailus.ascx.vb">
+      <DependentUpon>emailus.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\navigation\wpHeaderMenu.ascx.designer.vb">
+      <DependentUpon>wpHeaderMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\navigation\wpHeaderMenu.ascx.vb">
+      <DependentUpon>wpHeaderMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\navigation\wpGoToTop.ascx.designer.vb">
+      <DependentUpon>wpGoToTop.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\navigation\wpGoToTop.ascx.vb">
+      <DependentUpon>wpGoToTop.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\photoslide\logoslide.ascx.designer.vb">
+      <DependentUpon>logoslide.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\photoslide\logoslide.ascx.vb">
+      <DependentUpon>logoslide.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\photoslide\flash.ascx.designer.vb">
+      <DependentUpon>flash.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\photoslide\flash.ascx.vb">
+      <DependentUpon>flash.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\products\wpproductdetails.ascx.designer.vb">
+      <DependentUpon>wpproductdetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\products\wpproductdetails.ascx.vb">
+      <DependentUpon>wpproductdetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\products\wpproductcategoriesfeatured.ascx.designer.vb">
+      <DependentUpon>wpproductcategoriesfeatured.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\products\wpproductcategoriesfeatured.ascx.vb">
+      <DependentUpon>wpproductcategoriesfeatured.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\products\wpproductsfeatured.ascx.designer.vb">
+      <DependentUpon>wpproductsfeatured.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\products\wpproductsfeatured.ascx.vb">
+      <DependentUpon>wpproductsfeatured.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\products\wpproductslist.ascx.designer.vb">
+      <DependentUpon>wpproductslist.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\products\wpproductslist.ascx.vb">
+      <DependentUpon>wpproductslist.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\search\searchbar.ascx.designer.vb">
+      <DependentUpon>searchbar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\search\searchbar.ascx.vb">
+      <DependentUpon>searchbar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\search\wpsearchproduct.ascx.designer.vb">
+      <DependentUpon>wpsearchproduct.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\search\wpsearchproduct.ascx.vb">
+      <DependentUpon>wpsearchproduct.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\search\wpsearch.ascx.designer.vb">
+      <DependentUpon>wpsearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\search\wpsearch.ascx.vb">
+      <DependentUpon>wpsearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\navigation\sitemap.ascx.designer.vb">
+      <DependentUpon>sitemap.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\navigation\sitemap.ascx.vb">
+      <DependentUpon>sitemap.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tfsCMSModule.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="webparts\radeditor\wpcontent.ascx.designer.vb">
+      <DependentUpon>wpcontent.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\radeditor\wpcontent.ascx.vb">
+      <DependentUpon>wpcontent.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\wpCareer.ascx.designer.vb">
+      <DependentUpon>wpCareer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\wpCareer.ascx.vb">
+      <DependentUpon>wpCareer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\wpCommon.ascx.designer.vb">
+      <DependentUpon>wpCommon.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\wpCommon.ascx.vb">
+      <DependentUpon>wpCommon.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\wpForms.ascx.designer.vb">
+      <DependentUpon>wpForms.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\wpForms.ascx.vb">
+      <DependentUpon>wpForms.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\wpMedia.ascx.designer.vb">
+      <DependentUpon>wpMedia.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\wpMedia.ascx.vb">
+      <DependentUpon>wpMedia.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webparts\wpNavigations.ascx.designer.vb">
+      <DependentUpon>wpNavigations.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="webparts\wpNavigations.ascx.vb">
+      <DependentUpon>wpNavigations.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Masterpages\Default\DefaultMaster.Master" />
+    <Content Include="Masterpages\global.master" />
+    <Content Include="Masterpages\CMSAdmin.Master" />
+    <Content Include="Masterpages\SiteAdmin.Master" />
+    <Content Include="App_Themes\admin\admin.skin" />
+    <Content Include="Masterpages\dummy.master" />
+    <Content Include="admin\web.config" />
+    <Content Include="App_Themes\Default\default.skin" />
+    <Content Include="Modules\web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="admin\pages\web.config" />
+    <Content Include="App_Data\RadUploadTemp\RadUploadTestFile" />
+    <Content Include="Modules\common\web.config" />
+    <Content Include="admin\Tools\files\web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Modules\photo-gallery\admin\web.config" />
+    <Content Include="App_Themes\Default\fonts\fontawesome-webfont.eot" />
+    <Content Include="App_Themes\Default\fonts\fontawesome-webfont.ttf" />
+    <Content Include="App_Themes\Default\fonts\fontawesome-webfont.woff" />
+    <Content Include="App_Themes\Default\fonts\fontawesome-webfont.woff2" />
+    <Content Include="App_Themes\Default\fonts\FontAwesome.otf" />
+    <Content Include="App_Themes\Default\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="App_Themes\Default\fonts\jaapokki\jaapokki-regular.eot" />
+    <Content Include="App_Themes\Default\fonts\jaapokki\jaapokki-regular.ttf" />
+    <Content Include="App_Themes\Default\fonts\jaapokki\jaapokki-regular.woff" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\Release.pubxml" />
+    <None Include="My Project\PublishProfiles\uniwes.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="RadUploadTemp\RadUploadTestFile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="files\documents\" />
+    <Folder Include="files\flash\" />
+    <Folder Include="Modules\photo-gallery\images\2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\techCart.DAL\techCart.DAL.vbproj">
+      <Project>{b523498b-783a-499f-969e-d9e388b1b4de}</Project>
+      <Name>techCart.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\techCMS.DAL\techCMS.DAL.vbproj">
+      <Project>{f154833d-3fbc-49ae-8723-950530187be4}</Project>
+      <Name>techCMS.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7145</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
