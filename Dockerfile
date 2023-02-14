@@ -3,7 +3,7 @@ WORKDIR /app
 
 # copy csproj and restore as distinct layers
 COPY *.sln .
-COPY aspnetapp/*.csproj ./aspnetapp/
+COPY aspnetapp/*.vbproj ./aspnetapp/
 COPY aspnetapp/*.config ./aspnetapp/
 RUN nuget restore
 
